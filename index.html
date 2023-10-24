@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>
+			Netflix India - Watch TV Shows Online, Watch Movies Online netflix.com
+		</title>
+		<link rel="stylesheet" href="Netflix.css">
+	</head>
+	<body>
+		<div class="background_image">
+			<p>
+
+				<img src="logo.jpg" alt="Netflix Logo" style="width:100px;height:50px;float:left;">
+				<div class="Language_top">
+					<select name="language" id="language">
+						<option value="English" selected>English</option>
+						<option value="Hindi">Hindi</option>
+					</select>
+				</div>
+				<div class="sign_in">
+					<button class="signin">
+						Sign In
+					</button>
+				</div>
+
+			</p>
+			<p class="main_bg">
+
+				<div class="big_title">
+					The biggest Indian hits. The best Indian stories. All streaming here.
+				</div>
+				<br>
+				<div class="font1">
+					Watch anywhere. Cancel anytime.
+				</div>
+				<br>
+				<div class="font2">
+					Ready to watch?
+					Enter your email to create or restart your membership.
+				</div>
+				<form class="email_form" method="get">
+					<input type="email" id="email" placeholder="Enter your email">
+					</input>
+					<button name="email" type="submit" value="Get Started">
+						Get Started
+					</button>
+				</form>
+
+			</p>
+		</div>
+		<hr>
+		<p class="one">
+			<img src="tv.jpg" alt="tv" style="width:100px;height100px;float:right;">
+			<div class="font3">
+				Enjoy your TV
+			</div>
+			<br>
+			<div class="font4">
+				Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blue-ray players and more.
+			</div>
+			<br>
+		</p>
+		<hr>
+		<p class="two">
+			<img src="mobile.jpg" alt="Downloading" style="width:100px;height:100px;float:left;">
+			<div class="font3">
+				Download your shows to watch offline
+			</div>
+			<br>
+			<div class="font4">
+				Save your favourites easily and always have something to watch
+			</div>
+			<br>
+		</p>
+		<hr>
+		<p class="three">
+			<img src="devices.jpg" alt="Devices" style="width:100px; height:100px; float:right;">
+			<div class="font3">
+				Watch everywhere
+			</div>
+			<br>
+			<div class="font4">
+				Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+			</div>
+			<br>
+		</p>
+		<hr>
+		<p class="four">
+			<img src="kids.jpg" alt="Kids" style="width:100px; height:100px;float:left;">
+			<div class="font3">
+				Create profile for kids
+			</div>
+			<br>
+			<div class="font4">
+				Send children on adventures with their favorite characters in a space made just for them-free with your membership
+			</div>
+			<br>
+		</p>
+		<hr>
+		<p>
+			
+			<div class="faq">
+				Frequently Asked Questions
+			</div>
+			<br>
+			
+			<div class="QnA">
+				<button class="que1">
+					What is Netflix?
+				</button>
+				<div class="ans1">
+					Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands internet-connected devices.<br>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+				</div>
+				<script>
+   					let que1_Btn = document.querySelector('.que1');
+	  				let ans1_Content = document.querySelector('.ans1');
+					que1_Btn.addEventListener('click', () => {
+					if (ans1_Content.style.display === "") {
+					ans1_Content.style.display = "block";
+					} else {
+					ans1_Content.style.display = "";
+					}
+					})
+				</script>
+				<button class="que2">
+					How much does Netflix Cost?
+				</button>
+				<div class="ans2">
+				Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+				</div>
+				<script>
+   					let que2_Btn = document.querySelector('.que2');
+	  				let ans2_Content = document.querySelector('.ans2');
+					que2_Btn.addEventListener('click', () => {
+					if (ans2_Content.style.display === "") {
+					ans2_Content.style.display = "block";
+					} else {
+					ans2_Content.style.display = "";
+					}
+					})
+				</script>
+			
+				<button class="que3">
+					Where can I watch?
+				</button>
+				<div class="ans3">
+				Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+				</div>
+				<script>
+   					let que3_Btn = document.querySelector('.que3');
+	  				let ans3_Content = document.querySelector('.ans3');
+					que3_Btn.addEventListener('click', () => {
+					if (ans3_Content.style.display === "") {
+					ans3_Content.style.display = "block";
+					} else {
+					ans3_Content.style.display = "";
+					}
+					})
+				</script>
+
+				<button class="que4">
+					How do I cancel?
+				</button>
+				<div class="ans4">
+				Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+				</div>
+				<script>
+   					let que4_Btn = document.querySelector('.que4');
+	  				let ans4_Content = document.querySelector('.ans4');
+					que4_Btn.addEventListener('click', () => {
+					if (ans4_Content.style.display === "") {
+					ans4_Content.style.display = "block";
+					} else {
+					ans4_Content.style.display = "";
+					}
+					})
+				</script>
+				<button class="que5">
+					What can I watch on Netflix?
+				</button>
+				<div class="ans5">
+				Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+				</div>
+				<script>
+   					let que5_Btn = document.querySelector('.que5');
+	  				let ans5_Content = document.querySelector('.ans5');
+					que5_Btn.addEventListener('click', () => {
+					if (ans5_Content.style.display === "") {
+					ans5_Content.style.display = "block";
+					} else {
+					ans5_Content.style.display = "";
+					}
+					})
+				</script>
+				<button class="que6">
+					Is Netflix good for kids?
+				</button>
+				<div class="ans6">
+				The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.<br>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+				</div>
+				<script>
+   					let que6_Btn = document.querySelector('.que6');
+	  				let ans6_Content = document.querySelector('.ans6');
+					que6_Btn.addEventListener('click', () => {
+					if (ans6_Content.style.display === "") {
+					ans6_Content.style.display = "block";
+					} else {
+					ans6_Content.style.display = "";
+					}
+					})
+				</script>
+			</div> <!-- QnA class closing tag-->
+		</p>
+		<p>
+			<div class="font2">
+				Ready to watch?
+				Enter your email to create or restart your membership.
+			</div>
+			<form class="email_form" method="get">
+				<input type="email" id="email" placeholder="Enter your email">
+				</input>
+				<button name="email" type="submit" value="Get Started">
+					Get Started
+				</button>
+			</form>
+		</p>
+		<hr>
+		<p class="footer">
+		Questions? Call us <a href="tel:0008009191694">000-800-919-1694</a>
+			<table>
+				<tr>
+					<td><a href="#">FAQ</a></td>
+					<td><a href="#">Help Centre</a></td>
+					<td><a href="#">Account</a></td>
+					<td><a href="#">Media Centre</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Investor Relations</a></td>
+					<td><a href="#">Jobs</a></td>
+					<td><a href="#">Ways to Watch</a></td>
+					<td><a href="#">Terms of Use</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Privacy</a></td>
+					<td><a href="#">Cookie Preferences</a></td>
+					<td><a href="#">Corporate Information</a></td>
+					<td><a href="#">Contact Us</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Speed Test</a></td>
+					<td><a href="#">Legal Notices</a></td>
+					<td><a href="#">Only on Netflix</a></td>
+				</tr>
+			</table>
+			<br>
+			<div class="Language_down">
+				<select name="language" id="language">
+					<option value="English" selected>English</option>
+					<option value="Hindi">Hindi</option>
+				</select>
+			</div>
+			<br>
+			<div class="note">
+				Netflix India
+			</div>
+		</p>
+	</body>
+</html>
